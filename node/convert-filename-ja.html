@@ -1,0 +1,29 @@
+<script type="text/javascript">
+  RED.nodes.registerType('convert-filename-ja', {
+    category: 'function',
+    color: '#e2d96e',
+    inputs: 1,
+    outputs: 1,
+    icon: 'swap.png',
+    label: function() {
+      return this.name || 'convert-filename-ja';
+    },
+    paletteLabel: 'filename ja',
+    defaults: {
+      name: { required: true },
+    },
+    // credentials: {
+    // },
+  });
+</script>
+
+<script type="text/x-red" data-template-name="convert-filename-ja">
+  <div class="form-row">
+    <label for="node-input-name" style="width:30%"><i class="icon-tag"></i> ノード名</label>
+    <input type="text" id="node-input-name" style="width:69%" placeholder="このノードの名前" />
+  </div>
+</script>
+
+<script type="text/x-red" data-help-name="convert-filename-ja">
+  <p>日本語のファイル名として使用可能な文字列を返します。</p>
+</script>
