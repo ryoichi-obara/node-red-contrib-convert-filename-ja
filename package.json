@@ -18,6 +18,9 @@
     "eslint-plugin-import": "^2.17.2"
   },
   "homepage": "https://github.com/ryoichi-obara/node-red-contrib-convert-filename-ja#readme",
+  "keywords": [
+    "node-red"
+  ],
   "license": "MIT",
   "main": "node/convert-filename-ja.js",
   "node-red": {
