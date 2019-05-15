@@ -17,8 +17,10 @@ function exportsFunction(RED) {
 
     // inputイベント(ノードがメッセージを受信)へのリスナー登録.
     this.on('input', async (msg) => {
-      const payload = util.convert(msg.payload);
-      msg.payload = payload;
+      if (msg.payload) {
+        const payload = util.convert(msg.payload);
+        msg.payload = payload;
+      }
       thisNode.send(msg);
     });
   }
