@@ -10,12 +10,12 @@
     "url": "https://github.com/ryoichi-obara/node-red-contrib-convert-filename-ja/issues"
   },
   "dependencies": {
-    "convert-filename-ja": "^1.0.2"
+    "convert-filename-ja": "^1.0.3"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
   },
   "homepage": "https://github.com/ryoichi-obara/node-red-contrib-convert-filename-ja#readme",
   "keywords": [
