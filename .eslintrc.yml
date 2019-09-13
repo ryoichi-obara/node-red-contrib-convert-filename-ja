@@ -8,4 +8,11 @@ globals:
   SharedArrayBuffer: readonly
 parserOptions:
   ecmaVersion: 2018
-rules: {}
+rules:
+  max-len: off
+  no-param-reassign: 
+    - error
+    - ignorePropertyModificationsFor:
+      - msg
+      props: true
+
